@@ -1,0 +1,101 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4c5c42;
+    position:relative;
+}
+
+#titulo {
+    text-size-adjust: 10px;
+    color:rgb(253, 253, 253);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-style: normal;
+    position: absolute;
+    left:25%;
+
+}
+
+h3 {
+    color: rgb(241, 237, 228);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+form {
+    position: absolute;
+    left: 32%;
+    top: 150px;
+    margin-bottom: 10px;
+    border-style: solid;
+    border-color: honeydew ;
+
+
+}
+#botonCalcular {
+    position:absolute;
+    left: 46%;
+    top:750px;
+    width: 100px;    
+    border-color: rgb(82, 110, 82);
+    background-color:#dee6de ;
+    color: #4c5c42;
+}
+
+
+#primerVideo {
+    position:relative;
+    border-style: solid;
+    border-color: honeydew;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+}
+
+#segundoVideo {
+    position:relative;
+    border-style: solid;
+    border-color: honeydew;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#tercerVideo {
+    position:relative;
+    border-style: solid;
+    border-color: honeydew;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#cuartoVideo {
+    position:relative;
+    border-style: solid;
+    border-color: honeydew;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+#quintoVideo {
+    position:relative;
+    border-style: solid;
+    border-color: honeydew;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+
+#textoResultado {
+    position:absolute;
+    left: 30%;
+    top:760px;
+}
+
+
+@media only screen and (min-width: 640px) {
+    footer span {
+        display: inline;
+    }
+}

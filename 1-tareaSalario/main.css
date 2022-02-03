@@ -1,0 +1,65 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    align-items: center;
+    background: #242941;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#dato , #botonSubmit {
+    margin: 0;
+    position: absolute;
+    top: 85%;
+    left: 18%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#botonSubmit {
+    margin: 0;
+    position: :absolute;
+    left:40%;
+}
+
+#ingresarSalario {
+    font-family:Verdana;
+    font-size: 35px;
+    font-weight: bold;
+    color:#d8d0c5;
+    margin: 0;
+    position:absolute;
+    top:300px;
+ 
+}
+
+#resultado {
+    color: cornsilk;
+    font-family:Verdana;
+    font-size: 15px;
+    margin: 0;
+    position:absolute;
+    top:393px;
+    left:50%;
+
+}
+
+#botonSubmit {
+    background-color:#282f50;
+    font-family: Verdana;
+}
+
+main {
+    background-color: #232e5f;
+}
+
+@media only screen and (min-width: 640px) {
+    footer span {
+        display: inline;
+    }
+}
