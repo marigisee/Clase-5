@@ -23,7 +23,7 @@ h1 {
 
 }
 
-#ingresoDatos {
+#ingreso-datos {
     margin: 0;
     position: absolute;
     text-decoration-color: #3f694f ;
@@ -31,13 +31,13 @@ h1 {
     top:150px;
 }
 
-.botonEInput {
+.boton-input {
     position: absolute;
     left:25%;
     top:300px;
 }
 
-#Boton {
+#boton {
     width: 100px;
 }
 

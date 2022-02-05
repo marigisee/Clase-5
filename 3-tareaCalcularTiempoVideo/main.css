@@ -34,7 +34,7 @@ form {
 
 
 }
-#botonCalcular {
+#boton-calcular {
     position:absolute;
     left: 46%;
     top:750px;
@@ -45,7 +45,7 @@ form {
 }
 
 
-#primerVideo {
+#primer-video {
     position:relative;
     border-style: solid;
     border-color: honeydew;
@@ -54,7 +54,7 @@ form {
     padding-right: 10px;
 }
 
-#segundoVideo {
+#segundo-video {
     position:relative;
     border-style: solid;
     border-color: honeydew;
@@ -62,7 +62,7 @@ form {
     padding-bottom: 20px;
 }
 
-#tercerVideo {
+#tercer-video {
     position:relative;
     border-style: solid;
     border-color: honeydew;
@@ -70,7 +70,7 @@ form {
     padding-bottom: 20px;
 }
 
-#cuartoVideo {
+#cuarto-video {
     position:relative;
     border-style: solid;
     border-color: honeydew;
@@ -78,7 +78,7 @@ form {
     padding-bottom: 20px;
 }
 
-#quintoVideo {
+#quinto-video {
     position:relative;
     border-style: solid;
     border-color: honeydew;
@@ -87,7 +87,7 @@ form {
 }
 
 
-#textoResultado {
+#texto-resultado {
     position:absolute;
     left: 30%;
     top:760px;

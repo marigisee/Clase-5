@@ -5,15 +5,12 @@
 // mostrar toda la información junta en un campo de texto
 // Y va a cambiar el <h1> para decir "Bienvenido, nombreDeUsuario"!*/
 
-Number(edad);
-
 const $botonTexto = document.querySelector("#Boton") 
 $botonTexto.onclick = function() {
-         const primerNombre = document.querySelector("#datoPrimerNombre").value; //Obtenemos los valores que el usuario introdujo y se los asignamos a respectivas variables.
-         const segundoNombre = document.querySelector("#datoSegundoNombre").value;
-         const apellido = document.querySelector("#datoApellido").value;
-         const edad = document.querySelector("#datoEdad").value;
-         Number(edad);
+         const primerNombre = document.querySelector("#dato-primer-nombre").value; //Obtenemos los valores que el usuario introdujo y se los asignamos a respectivas variables.
+         const segundoNombre = document.querySelector("#dato-segundo-nombre").value;
+         const apellido = document.querySelector("#dato-apellido").value;
+         const edad = Number(document.querySelector("#dato-edad").value);
          document.querySelector("#texto").value = `Tu nombre es ${primerNombre} ${segundoNombre} ${apellido} y tenes ${edad} años`; 
          CambiarH1(primerNombre,segundoNombre,apellido); 
     return false
